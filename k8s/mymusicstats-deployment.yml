@@ -15,7 +15,7 @@ spec:
         app: mymusicstats
     spec:
       containers:
-      - name: mymusicstats
-        image: shashankssriva/mymusicstats-arm64:1.0.2
-        ports:
-        - containerPort: 80
+        - name: mymusicstats
+          image: vandewilly/mymusicstats:1.0.0
+          ports:
+            - containerPort: 80
